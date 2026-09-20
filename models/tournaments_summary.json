@@ -1,0 +1,47 @@
+{
+  "Mod A": {
+    "champion_name": "ElasticNet",
+    "metrics": {
+      "Model Name": "ElasticNet",
+      "Train R²": 0.6699,
+      "Test R²": 0.7647,
+      "CV R² Mean": 0.5317,
+      "CV R² Std": 0.1674,
+      "Test RMSE": 0.6323,
+      "Test MAE": 0.5112,
+      "Overfitting Gap": -0.0948,
+      "Status": "Valid"
+    },
+    "features_count": 14
+  },
+  "Mod B": {
+    "champion_name": "BayesianRidge",
+    "metrics": {
+      "Model Name": "BayesianRidge",
+      "Train R²": 0.6756,
+      "Test R²": 0.6447,
+      "CV R² Mean": 0.6018,
+      "CV R² Std": 0.0619,
+      "Test RMSE": 1.1693,
+      "Test MAE": 0.9397,
+      "Overfitting Gap": 0.0309,
+      "Status": "Valid"
+    },
+    "features_count": 15
+  },
+  "Mod C": {
+    "champion_name": "HuberRegressor",
+    "metrics": {
+      "Model Name": "HuberRegressor",
+      "Train R²": 0.6791,
+      "Test R²": 0.5432,
+      "CV R² Mean": 0.5416,
+      "CV R² Std": 0.0956,
+      "Test RMSE": 1.2394,
+      "Test MAE": 1.0091,
+      "Overfitting Gap": 0.1359,
+      "Status": "Valid"
+    },
+    "features_count": 16
+  }
+}
